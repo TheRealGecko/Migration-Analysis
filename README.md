@@ -16,7 +16,7 @@ To answer this, I created a visualization of the dataset using pandas and Plotly
 
 ![map preview](results/map_preview.png)  
 
-#### [View interactive map](https://therealgecko.github.io/Migration-Analysis/).
+#### *[View interactive map](https://therealgecko.github.io/Migration-Analysis/)*
 
 ### Where do the majority of geese tend to reside/lay over?
 To answer this, I generalized each latitude/longitude coordinate as a city/region and found the most common occurrences of the cities/regions.
