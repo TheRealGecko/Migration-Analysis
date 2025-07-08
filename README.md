@@ -1,7 +1,7 @@
 # Migration-Analysis
 ## Analyzing North-East American Canadian geese migration trends using pandas
 
-Seeing the geese in Waterloo got me thinking, where do they go anyways? While I couldn't find a dataset on Waterloo geese to answer the question for myself, I was able to find a dataset on [North-East American Canadian geese](https://www.movebank.org/cms/webapp?gwt_fragment=page%3Dstudies%2Cpath%3Dstudy2105214573) with 1,680,000+ data points to analyze.
+Seeing the geese in Waterloo got me thinking, where do they go anyways when they're not bothering us? While I couldn't find a dataset on Waterloo geese to answer the question for myself, I was able to find a dataset on [North-East American Canadian geese](https://www.movebank.org/cms/webapp?gwt_fragment=page%3Dstudies%2Cpath%3Dstudy2105214573) with 1,680,000+ data points to analyze.
 
 ## Questions I wanted answered
 - What does their migration route look like?
