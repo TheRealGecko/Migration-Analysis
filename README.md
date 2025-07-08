@@ -19,13 +19,48 @@ View the mapping [here]().
 To answer this, I generalized each latitude/longitude coordinate as a city/region and found the most common occurrences of the cities/regions.
 
 #### Results 
-```
-1) Vaughan, ON, CA  
-2) Baie-d'Hudson, QC, CA (specifically around (59.9, -77.4))  
-3) Baie-d'Hudson, QC, CA (specifically around (59.4, -77.7))  
-4) Syosset, New York, USA  
-5) Pineville, Pennsylvania, USA
-```
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Location</th>
+      <th>Region / Country</th>
+      <th>Coordinates</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Vaughan</td>
+      <td>ON, Canada</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Baie-d'Hudson</td>
+      <td>QC, Canada</td>
+      <td>(59.9, -77.4)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Baie-d'Hudson</td>
+      <td>QC, Canada</td>
+      <td>(59.4, -77.7)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Syosset</td>
+      <td>New York, USA</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Pineville</td>
+      <td>Pennsylvania, USA</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 
 Notes on the process:
 - Originally, I was going to find each city/region for each data point using Geopy, but I ran into a blocker:
@@ -39,7 +74,8 @@ Notes on the process:
 ## What months have the most geese movement?
 Steps to determine this:
 - Sum the distance traveled over several 3-day intervals throughout each month per goose  
-- Take the average of all geese per each month  
+- Take the average of all geese per each month
+
 ![map preview](results/movement_per_month.png)
 
 Notes on the process:
