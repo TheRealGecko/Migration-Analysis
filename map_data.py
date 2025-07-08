@@ -13,4 +13,4 @@ fig =  px.density_map(grouped_times, lat="location_lat", lon="location_long", an
 
 fig.update_layout(margin={"r": 20, "t": 50, "l": 20, "b": 10}, title="North-East American Canada Goose Migration 2017-2021")
 
-px.offline.plot(fig, filename='results\\mapped_data.html')
+fig.write_html('results\\mapped_data.html')
