@@ -11,7 +11,7 @@ Seeing the geese in Waterloo got me thinking, where do they go anyways? While I 
 To answer this, I created a visualization of the dataset using pandas and plotly
 - Data is blocked into intervals of 3 days to reduce data points, reducing strain on program
 - Data is mapped starting from 2017-08-08 due to the lack of data points from 2015-2017
-![map preview](results\map_preview.png)
+![map preview](.\results\map_preview.png)
 View the mapping (here)[]
 
 ## Where do majority of geese tend to reside/lay-over in?
@@ -35,7 +35,7 @@ Notes on the process:
 Steps to determine this:
 - Sum the distance travelled over several 3 day interval throughout each month per geese 
 - Take the average of all the geese per each month
-![map preview](results\movement_per_month.png)
+![map preview](.\results\movement_per_month.png)
 
 Notes on the processs:
 - Originally geopy's distance function was to be used to calculate distances between points, but due to the volume of data points to analyze, the process was taking too long
