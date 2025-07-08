@@ -13,7 +13,7 @@ To answer this, I created a visualization of the dataset using pandas and Plotly
 - Data is grouped into intervals of 3 days to reduce data points, lowering strain on the program
 - Data is mapped starting from 2017-08-08 due to the lack of data points from 2015–2017  
 ![map preview](results/map_preview.png)  
-View the mapping [here]().
+####View the mapping [here](https://therealgecko.github.io/Migration-Analysis/).
 
 ### Where do the majority of geese tend to reside/lay over?
 To answer this, I generalized each latitude/longitude coordinate as a city/region and found the most common occurrences of the cities/regions.
@@ -33,7 +33,7 @@ To answer this, I generalized each latitude/longitude coordinate as a city/regio
       <td>1</td>
       <td>Vaughan</td>
       <td>ON, Canada</td>
-      <td>—</td>
+      <td>(43.8, -79.5)</td>
     </tr>
     <tr>
       <td>2</td>
@@ -51,13 +51,13 @@ To answer this, I generalized each latitude/longitude coordinate as a city/regio
       <td>4</td>
       <td>Syosset</td>
       <td>New York, USA</td>
-      <td>—</td>
+      <td>(40.8, -73.5)</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Pineville</td>
       <td>Pennsylvania, USA</td>
-      <td>—</td>
+      <td>(40.3, -75.0)</td>
     </tr>
   </tbody>
 </table>
