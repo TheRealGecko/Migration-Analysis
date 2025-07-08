@@ -11,7 +11,7 @@ Seeing the geese in Waterloo got me thinking, where do they go anyways? While I 
 ### What does their migration route look like?
 To answer this, I created a visualization of the dataset using pandas and Plotly:
 - Data is grouped into intervals of 3 days to reduce data points, lowering strain on the program
-- Data is mapped starting from 2017-08-08 due to the lack of data points from 2015–2017
+- Data is mapped starting from 2017-08-08 due to the lack of data points from 2015-2017
 - Slider to view how geese distributions changed from 2017-2021
 
 ![map preview](results/map_preview.png)  
